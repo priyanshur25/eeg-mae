@@ -1,0 +1,7 @@
+torch
+numpy
+mne
+scikit-learn
+matplotlib
+tqdm
+pytest
