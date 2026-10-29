@@ -15,3 +15,13 @@ class Config:
     test_subjects: tuple = tuple(range(31, 41))
     cache_dir: str = "cache"
     seed: int = 42
+
+    # model
+    patch_len: int = 40           # 0.25 s -> 8 patches per channel
+    enc_dim: int = 128
+    enc_depth: int = 4
+    enc_heads: int = 4
+    dec_dim: int = 64
+    dec_depth: int = 2
+    dec_heads: int = 4
+    mask_ratio: float = 0.75
